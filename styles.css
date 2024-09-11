@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    column-gap: 10px;
     padding: 20px;
     background-color: #ffe0db;
     /* box-shadow: 0px 4px 2px -2px gray; */
@@ -51,15 +52,13 @@
   
   /* Hero Section Styles */
   .hero {
-    height: 70vh;
+    height: 105vh;
     display: flex;
-    flex-direction: column;
-    column-gap: none;
-    justify-content: flex-start;
+    flex-direction: row;
+    border: none;
     /* align-items: center;  */
     font-weight: bolder;
-    padding: 2.5rem 8rem;
-    background-image: linear-gradient(to right, #b67c62 0%, #ffe0db 19%, #f8e0dc  19%, #ffe0db 100vh);
+    background-image: linear-gradient(to right, #b67c62 0%, #ffe0db 19%, #ffe0db 19%, #ffe0db 50vh);
   }
   
   .hero h1 {
@@ -71,4 +70,15 @@
     color: #160f0d;
     font-size: 1.5rem;
     
+  }
+
+  .hero-position {
+    width: 50vw;
+    padding: 2.5rem 8rem;
+  }
+
+  .hero-img {
+    width: 50vw;
+    height: 100%;
+    padding: 0;
   }
