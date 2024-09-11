@@ -1,3 +1,43 @@
-.navhero {
-    background-image: linear-gradient( to right, url(./images/navherong.png) 50%, #FFF4F2 50%);
+.body{
+text-decoration: none;
+}
+/* .container {
+     background-image: linear-gradient(
+        to right,
+        #FFF4F2 0%,
+        #FFF4F2 50%,
+        #714B39 50%,
+        #714B39 100vh;  )
+} */
+
+
+nav {
+    display: flex;
+    height: 70px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    background-color: #FFF4F2;
+}
+
+.nav-items {
+    color: #212529;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400px;
+}
+
+.hero {
+    height:400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.textwhite {
+    color: white;
 }
