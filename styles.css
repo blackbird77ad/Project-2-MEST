@@ -7,6 +7,7 @@
   align-items: center;
   /* column-gap: 10px; */
   padding: 20px;
+  position: fixed;
   background-color: #ffe0db;
   /* box-shadow: 0px 4px 2px -2px gray;  */
 }
@@ -58,15 +59,10 @@
 /* Hero Section Styles */
 .hero {
   height: 100vh;
+  width: 105vw;
   display: flex;
   flex-direction: row;
-  background-image: linear-gradient(
-    to right,
-    #b67c62 0%,
-     18%,
-    #ffe0db 21%,
-    #ffe0db 50vh
-  );
+  background-color: #ffe0db;
   /* border: none;
     align-items: center;  
     font-weight: bolder;*/
@@ -204,17 +200,18 @@
     text-align: center;
     letter-spacing: normal;
     line-height: 30px;
-    color: #6d5854;
+    
 } 
 
 .menu {
-    background-color: #492f2a;
+    background-image: linear-gradient(to right, #e99180 0%, #f0cbc3 25%, #facbc2 25%, #492f2a 75%);
     height: 100vh;
     width: 100vw;
 }
 
 .menu h2 {
     color: white;
+    background-color: #442222;
     font-weight: bolder;
     line-height: 4rem;
     font-style: italic;
@@ -222,5 +219,4 @@
     flex-direction: flex;
     justify-content: center;
     padding: 2rem;
-
 }
